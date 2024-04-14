@@ -172,7 +172,8 @@ i) Using Laplacian Kernal
 </br>
 
 ii) Using Laplacian Operator
-![Uploading image.png…]()
+![image](https://github.com/swethamohanraj/Implementation-of-filter/assets/94228215/0df61c4a-4be9-4836-ac8f-c339b878df75)
+
 
 </br>
 </br>
