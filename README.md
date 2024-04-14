@@ -8,28 +8,18 @@ Anaconda - Python 3.7
 ## Algorithm:
 ### Step1
 Import cv2, matplotlib.py libraries and read the saved images using cv2.imread().
-</br>
-</br> 
 
 ### Step2
 Convert the saved BGR image to RGB using cvtColor().
-</br>
-</br> 
 
 ### Step3
 By using the following filters for image smoothing:filter2D(src, ddepth, kernel), Box filter,Weighted Average filter,GaussianBlur(src, ksize, sigmaX[, dst[, sigmaY[, borderType]]]), medianBlur(src, ksize),and for image sharpening:Laplacian Kernel,Laplacian Operator.
-</br>
-</br> 
 
 ### Step4
 Apply the filters using cv2.filter2D() for each respective filters.
-</br>
-</br> 
 
 ### Step5
 Plot the images of the original one and the filtered one using plt.figure() and cv2.imshow().
-</br>
-</br> 
 
 ## Program:
 ```python
@@ -121,65 +111,31 @@ plt.axis("off")
 ```
 ## OUTPUT:
 ### 1. Smoothing Filters
-</br>
 
-i) Using Averaging Filter
+## i) Using Averaging Filter
 ![image](https://github.com/swethamohanraj/Implementation-of-filter/assets/94228215/b89e35b9-297b-4673-93c0-3a5beba7e0e4)
 
-</br>
-</br>
-</br>
-</br>
-</br>
 
-ii) Using Weighted Averaging Filter
+## ii) Using Weighted Averaging Filter
 ![image](https://github.com/swethamohanraj/Implementation-of-filter/assets/94228215/8cf8a439-3759-45b8-b5af-5b845cc237bd)
 
-</br>
-</br>
-</br>
-</br>
-</br>
 
-iii) Using Gaussian Filter
+## iii) Using Gaussian Filter
 ![image](https://github.com/swethamohanraj/Implementation-of-filter/assets/94228215/bc73e315-b6e0-49f4-947b-1d33e1db9be6)
 
-</br>
-</br>
-</br>
-</br>
-</br>
-
-iv) Using Median Filter
+## iv) Using Median Filter
 ![image](https://github.com/swethamohanraj/Implementation-of-filter/assets/94228215/ce3aa1ce-3a68-4c90-ab90-9db1395a90e5)
 
-</br>
-</br>
-</br>
-</br>
-</br>
+
 
 ### 2. Sharpening Filters
-</br>
 
-i) Using Laplacian Kernal
+## i) Using Laplacian Kernal
 ![image](https://github.com/swethamohanraj/Implementation-of-filter/assets/94228215/f80083c2-2642-46c6-b3b3-da6828dcdb72)
 
-</br>
-</br>
-</br>
-</br>
-</br>
-
-ii) Using Laplacian Operator
+## ii) Using Laplacian Operator
 ![image](https://github.com/swethamohanraj/Implementation-of-filter/assets/94228215/0df61c4a-4be9-4836-ac8f-c339b878df75)
 
-
-</br>
-</br>
-</br>
-</br>
-</br>
 
 ## Result:
 Thus the filters are designed for smoothing and sharpening the images in the spatial domain.
